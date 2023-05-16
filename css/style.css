@@ -1,0 +1,83 @@
+*{
+	margin:0;
+	padding:0;	
+}
+@font-face{
+	font-family: 'dubai';
+	src: url("../fonts/dubai.ttf");
+}
+body{
+	background-image:url("../slike/bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+header{
+	text-align:center;
+}
+canvas{
+	margin: 0 auto;
+	background:url("../slike/labirint.svg");
+}
+#center{
+	margin: 0 auto;
+	
+	background-repeat:no-repeat;
+	max-width: 482px;
+	max-height: 482px;
+}
+#gumbi{
+	margin: 0 auto;
+	width: 482px;
+	height: 50px;
+	display: flex;
+}
+a{	
+	font-family: dubai;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: none;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #000;
+}
+.button:hover{
+	transition: transform .6s;	
+	transform: scale(1.2);
+}
+.button2:hover{
+	transition: transform .6s;	
+	transform: scale(1.2);
+}
+.button{
+	margin:auto;
+	text-align: center;
+	height:50px;
+	width:241px;
+	text-decoration:none;
+	font-size:40px;
+	cursor:pointer;
+	border: none;
+	background-color: #BBB2A3;
+}
+.button2{
+	margin:auto;
+	text-align: center;
+	height:50px;
+	width:241px;
+	text-decoration:none;
+	font-size:40px;
+	cursor:pointer;
+	border: none;
+	color: red;
+	background-color: #BBB2A3;
+}
+
+#pisava{
+	font-size:70px;	
+	font-family: dubai;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #000;
+}
+
+

@@ -1,0 +1,79 @@
+*{
+	margin:0;
+	padding:0;	
+}
+@font-face{
+	font-family: 'Ben10';
+	src: url("../fonts/ben10.ttf");
+}
+body{
+	background-image:url("../slike/bg.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+header{
+	text-align:center;
+}
+canvas{
+	margin: 0 auto;
+	background:url("../slike/labirint.svg");
+}
+#center{
+	margin: 0 auto;
+	background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 80%);
+	background-repeat:no-repeat;
+	max-width: 482px;
+	max-height: 482px;
+}
+#gumbi{
+	margin: 0 auto;
+	width: 482px;
+	height: 50px;
+	display: flex;
+}
+a{	
+	font-family: Ben10;
+	background:-webkit-linear-gradient(#FFFF66, #009900);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	text-decoration: none;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: #000;
+}
+a:hover{
+	color: green;	
+}
+.button{
+	text-align: center;
+	height:50px;
+	width:241px;
+	text-decoration:none;
+	font-size:40px;
+	font-family: 'Arial, Helvetica, sans-serif';
+	background-color: transparent;
+	cursor:pointer;
+	border: none;
+}
+.button2{
+	text-align: center;
+	height:50px;
+	width:241px;
+	text-decoration:none;
+	font-size:40px;
+	font-family: 'Arial, Helvetica, sans-serif';
+	background-color: transparent;
+	cursor:pointer;
+	border: none;
+}
+
+#pisava{
+	font-size:70px;	
+	font-family: Ben10;
+	background:-webkit-linear-gradient(#FFFF66, #009900);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-text-stroke-width: 4px;
+	-webkit-text-stroke-color: #000;
+}
+
+
